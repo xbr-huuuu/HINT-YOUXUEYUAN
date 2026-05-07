@@ -1,4 +1,4 @@
-# 优学院自动刷课脚本（JSON版本）
+# 优学院自动刷课脚本（HNIT版本）
 
 <div align="center">
 
@@ -14,9 +14,6 @@
 
 📹 [点击观看使用教程](https://www.bilibili.com/video/BV1gddcBFECT)
 
-<div align="center">
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116533082720040&bvid=BV1gddcBFECT&cid=38162598839&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="80%" height="450"></iframe>
-</div>
 
 > 💡 视频包含完整的安装和使用教程，建议首次使用时观看
 
