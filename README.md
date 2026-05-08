@@ -18,7 +18,9 @@
 > 
 > 📥 点击下方链接直接下载教学视频：
 > 
-> **[🎬 点击下载教学视频](教学视频.mp4?raw=true)**
+> **[🎬 点击下载教学视频（GitHub 加速）](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/教学视频.mp4)**
+> 
+> **[🎬 备用下载（GitHub 原始）](教学视频.mp4?raw=true)**
 
 ---
 
