@@ -53,7 +53,7 @@
 
 | 浏览器 | 安装链接 |
 |--------|---------|
-| Chrome / Edge | [安装 Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) |
+| Chrome / Edge | [安装 Tampermonkey（篡改猴）](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN) |
 | Firefox | [安装 Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/) |
 
 ### 安装脚本
