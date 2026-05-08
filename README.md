@@ -14,17 +14,13 @@
 
 ## 📹 使用教程视频
 
-<div align="center">
-
-<video src="教学视频.mp4" controls="controls" width="720" height="480">
-您的浏览器不支持 video 标签，请下载视频文件后观看。
-</video>
-
-</div>
-
-> 💡 以上为本项目的使用教学视频，包含完整的安装和使用教程，建议首次使用时观看。
+> 💡 本项目的使用教学视频包含完整的安装和使用教程，建议首次使用时观看。
 > 
-> 📥 如果视频无法在线播放，可以直接下载仓库中的 `教学视频.mp4` 文件进行本地播放。
+> 📥 点击下方链接下载教学视频：
+> 
+> **[🎬 点击下载教学视频（教学视频.mp4）](教学视频.mp4)**
+> 
+> 下载后使用任意视频播放器即可观看。
 
 ---
 
@@ -57,8 +53,8 @@
 
 | 浏览器 | 安装链接 |
 |--------|---------|
-| Chrome / Edge | [安装 Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) |
-| Firefox | [安装 Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/) |
+| Chrome / Edge | [安装 Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) |
+| Firefox | [安装 Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/) |
 
 ### 安装脚本
 
