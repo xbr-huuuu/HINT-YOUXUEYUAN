@@ -30,7 +30,8 @@
 | 浏览器 | 安装地址 |
 |--------|---------|
 | Edge / Chrome | [点击安装 Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN) |
-|注意：下载好后要打开篡改猴的管理扩展，开启开发者选项，以及允许用户脚本后才可以使用！！！|
+
+注意：下载好后要打开篡改猴的管理扩展，开启开发者选项，以及允许用户脚本后才可以使用！！！
 
 ### 第二步：安装脚本
 
