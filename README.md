@@ -30,7 +30,7 @@
 | 浏览器 | 安装地址 |
 |--------|---------|
 | Edge / Chrome | [点击安装 Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN) |
-| Firefox | [点击安装 Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/) |
+|注意：下载好后要打开篡改猴的管理扩展，开启开发者选项，以及允许用户脚本后才可以使用！！！|
 
 ### 第二步：安装脚本
 
@@ -40,7 +40,7 @@
 
 ### 第三步：访问课程页面
 
-打开优学院课程页面，脚本会自动运行，右上角出现 `UL` 配置面板。
+打开优学院课程页面后，进入刷课视频界面无需手动，脚本会自动运行，右上角出现 `UL` 配置面板。
 
 - `https://ua.ulearning.cn/learnCourse/*`
 - `https://ua.dgut.edu.cn/learnCourse/*`
@@ -59,7 +59,8 @@
 
 ## ⚠️ 免责声明
 
-本脚本仅供学习交流使用。使用本脚本产生的一切后果由使用者自行承担。
+本脚本仅供学习交流使用。
+使用本脚本产生的一切后果由使用者自行承担。
 
 ---
 
