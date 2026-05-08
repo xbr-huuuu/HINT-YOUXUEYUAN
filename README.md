@@ -60,11 +60,15 @@
 
 #### 方法一：一键安装脚本（推荐）
 
-👉 点击下方链接直接安装脚本：
+👉 确保已安装 Tampermonkey 扩展后，点击下方链接自动安装脚本：
 
-**[📥 点击安装脚本（GitHub 加速）](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.js)**
+**[📥 一键安装脚本（Tampermonkey 直装）](https://www.tampermonkey.net/install.php?url=https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.js)**
 
-> 💡 点击链接后浏览器会自动调用 Tampermonkey 弹出安装确认页面，确认安装即可。
+**[📥 备用安装（GitHub 加速）](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.js)**
+
+> 💡 第一个链接会自动调用 Tampermonkey 弹出安装确认页面，点击「安装」即可完成，无需手动复制代码。
+> 
+> ⚠️ 请确保先安装好 Tampermonkey 扩展，再点击上方链接。
 
 #### 方法二：手动安装
 
