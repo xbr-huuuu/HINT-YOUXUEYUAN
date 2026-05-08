@@ -60,20 +60,20 @@
 
 #### 方法一：一键安装脚本（推荐）
 
-👉 点击下方链接直接下载脚本文件：
+👉 确保已安装 Tampermonkey 后，点击下方链接，Tampermonkey 会自动弹出安装提示：
 
-**[📥 点击下载脚本（GitHub 加速）](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.js)**
+**[📥 点击安装脚本](https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.user.js)**
 
-**[📥 备用下载（GitHub 原始）](youxueyuan.js?raw=true)**
-
-> 💡 下载后将脚本文件拖入 Tampermonkey 管理页面即可自动安装。
+> 💡 已安装 Tampermonkey 的浏览器访问 `.user.js` 链接时，扩展会自动拦截并弹出安装确认窗口，点击「安装」即可。无需手动下载文件。
+> 
+> ⚠️ 如网络无法访问 GitHub，请使用方法二手动安装。
 
 #### 方法二：手动安装
 
 1. 点击浏览器工具栏的 Tampermonkey 图标
 2. 选择「添加新脚本」
 3. 删除编辑器中的默认内容
-4. 将 `youxueyuan.js` 文件中的内容复制粘贴到编辑器中
+4. 将 `youxueyuan.user.js` 文件中的内容复制粘贴到编辑器中
 5. 点击「文件」→「保存」
 
 ---
@@ -116,9 +116,9 @@
 
 ```
 HINT-YOUXUEYUAN-main/
-├── youxueyuan.js      # 主脚本文件（UserScript）
-├── 教学视频.mp4        # 使用教程视频
-└── README.md          # 项目说明文档（本文件）
+├── youxueyuan.user.js  # 主脚本文件（UserScript）
+├── 教学视频.mp4         # 使用教程视频
+└── README.md           # 项目说明文档（本文件）
 ```
 
 ---
