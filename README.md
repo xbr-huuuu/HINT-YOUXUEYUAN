@@ -58,9 +58,13 @@
 
 ### 安装脚本
 
-#### 方法一：从 Greasy Fork 安装（推荐）
+#### 方法一：一键安装脚本（推荐）
 
-👉 访问 [Greasy Fork 脚本页面](https://update.greasyfork.org/scripts/396629) 直接安装
+👉 点击下方链接直接安装脚本：
+
+**[📥 点击安装脚本（GitHub 加速）](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.js)**
+
+> 💡 点击链接后浏览器会自动调用 Tampermonkey 弹出安装确认页面，确认安装即可。
 
 #### 方法二：手动安装
 
