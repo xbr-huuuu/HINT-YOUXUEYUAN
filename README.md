@@ -4,196 +4,67 @@
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey.svg)
 
 **湖南工学院专用 | 优学院自动学习辅助工具**
 
 </div>
 
----
+## 📹 使用教程
 
-## 📹 使用教程视频
-
-> 💡 本项目的使用教学视频包含完整的安装和使用教程，建议首次使用时观看。
-> 
-> 📥 点击下方链接直接下载教学视频：
-> 
-> **[🎬 点击下载教学视频（GitHub 加速）](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/教学视频.mp4)**
-> 
-> **[🎬 备用下载（GitHub 原始）](教学视频.mp4?raw=true)**
+> **[🎬 点击下载教学视频](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/教学视频.mp4)**
 
 ---
 
-## ✨ 功能特性
+## 📥 一键下载脚本
 
-| 功能 | 描述 |
-|------|------|
-| 🎬 **自动静音播放视频** | 自动静音播放每页视频，无需手动操作 |
-| ⚡ **自定义播放速率** | 支持 0.25x - 15x 自定义播放速度 |
-| 📄 **自动翻页** | 视频播放完毕后自动跳转到下一节 |
-| ✅ **自动作答** | 支持多种题型自动作答 |
-| 🎛️ **可视化配置面板** | 简洁易用的拖拽式设置界面 |
-| 💡 **答案显示** | 自动在题目下方显示正确答案 |
-| 💾 **配置持久化** | 设置自动保存，支持旧版本配置自动迁移 |
-
-### 自动作答题型支持
-
-- 单选题
-- 多选题
-- 判断题
-- 填空题 / 简答题
+> **[📥 点击下载脚本文件](https://ghfast.top/https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.user.js)**
 
 ---
 
-## 📦 安装方法
+## 🚀 使用步骤
 
-### 前置条件
+### 第一步：安装浏览器扩展
 
-安装浏览器扩展 **Tampermonkey**（推荐）或 **Greasemonkey**：
+在浏览器中安装 **Tampermonkey**（篡改猴）扩展：
 
-| 浏览器 | 安装链接 |
+| 浏览器 | 安装地址 |
 |--------|---------|
-| Chrome / Edge | [安装 Tampermonkey（篡改猴）](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN) |
-| Firefox | [安装 Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/) |
+| Edge / Chrome | [点击安装 Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN) |
+| Firefox | [点击安装 Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/) |
 
-### 安装脚本
+### 第二步：安装脚本
 
-#### 方法一：一键安装脚本（推荐）
+1. 点击上方「📥 点击下载脚本文件」下载 `youxueyuan.user.js`
+2. 打开浏览器右上角 Tampermonkey 图标 → 「管理面板」
+3. 将下载的 `youxueyuan.user.js` 文件拖入 Tampermonkey 管理页面即可自动安装
 
-👉 确保已安装 Tampermonkey 后，点击下方链接，Tampermonkey 会自动弹出安装提示：
+### 第三步：访问课程页面
 
-**[📥 点击安装脚本](https://raw.githubusercontent.com/xbr-huuuu/HINT-YOUXUEYUAN/main/youxueyuan.user.js)**
+打开优学院课程页面，脚本会自动运行，右上角出现 `UL` 配置面板。
 
-> 💡 已安装 Tampermonkey 的浏览器访问 `.user.js` 链接时，扩展会自动拦截并弹出安装确认窗口，点击「安装」即可。无需手动下载文件。
-> 
-> ⚠️ 如网络无法访问 GitHub，请使用方法二手动安装。
-
-#### 方法二：手动安装
-
-1. 点击浏览器工具栏的 Tampermonkey 图标
-2. 选择「添加新脚本」
-3. 删除编辑器中的默认内容
-4. 将 `youxueyuan.user.js` 文件中的内容复制粘贴到编辑器中
-5. 点击「文件」→「保存」
+- `https://ua.ulearning.cn/learnCourse/*`
+- `https://ua.dgut.edu.cn/learnCourse/*`
 
 ---
 
-## 🚀 使用说明
+## ✨ 功能说明
 
-1. **安装脚本**：通过上述方法安装脚本后
-2. **访问课程页面**：
-   - `https://ua.ulearning.cn/learnCourse/*`
-   - `https://ua.dgut.edu.cn/learnCourse/*`
-3. **脚本自动运行**：页面右上角会出现可拖拽的配置面板（`UL` 悬浮球）
-4. **配置选项**：通过配置面板进行个性化设置
-
----
-
-## ⚙️ 配置选项
-
-### 视频播放
-
-| 功能 | 说明 | 默认值 |
-|------|------|--------|
-| 自动翻页、播放视频 | 自动静音播放视频并翻页 | ✅ 开启 |
-| 自动静音 | 视频自动静音播放 | ✅ 开启 |
-| 自动调整速率 | 自动调整视频播放速度 | ✅ 开启 |
-| 播放速率 | 视频播放速度（0.25x - 15x） | 1.50x |
-
-### 自动作答
-
-| 功能 | 说明 | 默认值 |
-|------|------|--------|
-| 自动作答（总开关） | 自动作答所有题型 | ✅ 开启 |
-| 自动显示答案 | 显示正确答案 | ✅ 开启 |
-| 自动作答选择题 | 自动作答单选/多选题 | ✅ 开启 |
-| 自动作答判断题 | 自动作答判断题 | ✅ 开启 |
-| 自动作答填空/简答题 | 自动作答填空和简答题 | ✅ 开启 |
+- 🎬 **自动静音播放视频** — 自动静音播放并跳过
+- ⚡ **自定义播放速率** — 支持 0.25x ~ 15x 加速
+- 📄 **自动翻页** — 视频播完自动跳转下一节
+- ✅ **自动作答** — 单选、多选、判断、填空/简答
+- 🎛️ **可视化面板** — 拖拽式配置，简单易用
 
 ---
 
-## 📂 项目结构
+## ⚠️ 免责声明
 
-```
-HINT-YOUXUEYUAN-main/
-├── youxueyuan.user.js  # 主脚本文件（UserScript）
-├── 教学视频.mp4         # 使用教程视频
-└── README.md           # 项目说明文档（本文件）
-```
-
----
-
-## 🛠️ 技术栈
-
-| 技术 | 用途 |
-|------|------|
-| **JavaScript** | 核心脚本语言 |
-| **jQuery** | DOM 操作 |
-| **jQuery UI** | 面板拖拽功能 |
-| **LocalStorage** | 配置持久化存储 |
-| **优学院 API** | 获取题目答案 |
-
----
-
-## ⚠️ 注意事项
-
-> ⚠️ **免责声明**
-> - 本脚本仅供学习交流使用
-> - 请谨慎使用修改播放速率功能，产生的不良后果作者不承担任何责任
-> - 请保持网课播放页面在浏览器中活动，避免长时间后台挂机
-> - 脚本作者不提供任何保证，请自行判断使用风险
-
-### 💡 使用建议
-
-1. **保持页面活动** — 避免最小化浏览器或切换到其他标签页过长时间
-2. **刷新重试** — 如果脚本无效，请尝试刷新页面
-3. **手动提交** — 关闭自动翻页功能后，答完题需要手动提交
-4. **配置保存** — 修改设置后请点击「保存设置并刷新脚本」按钮
-5. **教学视频** — 遇到问题时请先观看教学视频（仓库根目录 `教学视频.mp4`）
-
----
-
-## 📋 更新日志
-
-### v2.0.0 (2026-04-09)
-- 🏗️ 重构代码架构，提升可维护性
-- 📦 新增配置管理器（`ConfigManager`），支持配置持久化
-- 📝 新增日志管理器（`Logger`），便于调试
-- 🎯 优化题目检测逻辑，提高答题准确率
-- 🔄 支持从旧版本配置自动迁移
-- 🎨 改进 UI 界面，提升用户体验
-- 🧠 新增从 DOM 答案提取的多重策略
-
-### v1.6.2
-- 🎉 初始版本发布
-- ✅ 基本功能实现
-
----
-
-## 👥 贡献者
-
-| 贡献者 | 角色 |
-|--------|------|
-| **EliotZhang** | 原作者 |
-| **Brush-JIM** | 原作者 |
-| **Claude Code** | 代码重构优化 |
-
----
-
-## 📄 许可证
-
-本项目采用 [MIT 许可证](LICENSE) 开源。
-
----
-
-## 免责声明
-
-本脚本是为方便学生学习而开发的辅助工具，仅供学习交流使用。使用本脚本产生的一切后果由使用者自行承担，脚本开发者不承担任何责任。请合理使用，遵守学校相关规定。
+本脚本仅供学习交流使用。使用本脚本产生的一切后果由使用者自行承担。
 
 ---
 
 <div align="center">
 
-**如果这个项目对你有帮助，请给个 ⭐ Star 支持一下！**
+**如果对你有帮助，请给个 ⭐ Star 支持一下！**
 
 </div>
